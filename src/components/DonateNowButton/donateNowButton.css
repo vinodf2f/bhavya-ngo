@@ -1,0 +1,15 @@
+.buttonContainer {
+    width: fit-content;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.buttonContainer p {
+    padding: 10px;
+}
+
+.buttonContainer p:active {
+    box-shadow: 3px 2px 2px 2px;
+}

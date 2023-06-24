@@ -4,18 +4,20 @@ header {
 
 .mobileHeader {
   display: flex;
-  flex-direction:row;
-  justify-content:space-between;
-
+  flex-direction: row;
+  justify-content: space-between;
 }
-.mobileHeader  .showOnMobile {
-  display: none
+.mobileHeader .showOnMobile {
+  display: none;
 }
 header .section {
   flex: 1;
 }
 
 .sectionChild {
+  margin-bottom: 50px;
+}
+.sectionChild .description {
   margin-bottom: 50px;
 }
 header .leftSection {
@@ -43,7 +45,7 @@ header .leftSection p {
     flex-direction: column;
   }
   header .leftSection {
-    margin:0
+    margin: 0;
   }
   header .leftSection h1 {
     font-size: 2em;
@@ -52,9 +54,9 @@ header .leftSection p {
     display: none;
   }
   .childImage {
-    margin:20px 0;
+    margin: 20px 0;
   }
-  .mobileHeader  .showOnMobile {
-    display: block
+  .mobileHeader .showOnMobile {
+    display: block;
   }
 }

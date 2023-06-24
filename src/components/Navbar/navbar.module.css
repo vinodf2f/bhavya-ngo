@@ -29,3 +29,10 @@
 .navLinkContainer .active {
   color:yellow
 }
+
+
+@media (max-width: 768px) {
+  .navLinkContainer li {
+    font-size: 0.9rem;
+  }
+}

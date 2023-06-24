@@ -1,4 +1,8 @@
+"use client";
 import AboutUs from "@/components/AboutUs";
+import Campaign from "@/components/Campaign";
+import ContactUs from "@/components/Contactus";
+import DonateNowButton from "@/components/DonateNowButton";
 import DonationSummary from "@/components/DonationSummary";
 import Footer from "@/components/Footer";
 import Logo from "@/components/Logo";
@@ -23,11 +27,13 @@ export default function Home() {
             </div>
 
             <h1>Charity Is An Act Of A Soft Heart.</h1>
-            <p>
+            <p className="description">
               We have spent the last 5 years helping teams just like yourself
               create and sustain successful online support
             </p>
+            <DonateNowButton onClick={() => alert("Donate Now")} />
           </div>
+
           <Socials />
         </div>
 
@@ -44,6 +50,13 @@ export default function Home() {
         <AboutUs />
       </section>
       <SectionSeperator />
+      <section id="campaign">
+        <Campaign />
+      </section>
+      <SectionSeperator />
+      <section id="contactUs">
+        <ContactUs />
+      </section>
       <Footer />
     </main>
   );
