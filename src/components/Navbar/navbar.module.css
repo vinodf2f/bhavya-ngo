@@ -1,0 +1,31 @@
+.navbar {
+  padding: 30px 0;
+}
+
+.navLinkContainer {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLinkContainer li {
+  margin-right: 20px;
+}
+
+.navLinkContainer a {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+
+
+.navLinkContainer a:hover  {
+  color:yellow
+}
+
+
+.navLinkContainer .active {
+  color:yellow
+}

@@ -1,0 +1,17 @@
+.socialContainer {
+  display: flex;
+  align-items: flex-end;
+}
+
+.socialButton a{
+  padding: 10px;
+  margin: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.socialButton a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+

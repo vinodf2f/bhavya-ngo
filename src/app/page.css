@@ -1,0 +1,60 @@
+header {
+  display: flex;
+}
+
+.mobileHeader {
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+
+}
+.mobileHeader  .showOnMobile {
+  display: none
+}
+header .section {
+  flex: 1;
+}
+
+.sectionChild {
+  margin-bottom: 50px;
+}
+header .leftSection {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+header .leftSection h1 {
+  color: yellow;
+  font-size: 4rem;
+  line-height: 1.3em;
+}
+
+header .leftSection p {
+  color: gray;
+}
+
+.childImage {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  header .leftSection {
+    margin:0
+  }
+  header .leftSection h1 {
+    font-size: 2em;
+  }
+  .hideOnMobile {
+    display: none;
+  }
+  .childImage {
+    margin:20px 0;
+  }
+  .mobileHeader  .showOnMobile {
+    display: block
+  }
+}
