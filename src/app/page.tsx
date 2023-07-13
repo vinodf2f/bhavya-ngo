@@ -1,6 +1,7 @@
 "use client";
 import AboutUs from "@/components/AboutUs";
 import Campaign from "@/components/Campaign";
+import BuyProducts from "@/components/BuyProducts";
 import ContactUs from "@/components/Contactus";
 import DonateNowButton from "@/components/DonateNowButton";
 import DonationSummary from "@/components/DonationSummary";
@@ -28,8 +29,7 @@ export default function Home() {
 
             <h1>Charity Is An Act Of A Soft Heart.</h1>
             <p className="description">
-              We have spent the last 5 years helping teams just like yourself
-              create and sustain successful online support
+            We are a team comprised of well-educated young individuals as well as experienced professionals from the educational department. We are dedicated to making a difference in child education by providing financial assistance and educational support to underprivileged children.
             </p>
             <DonateNowButton onClick={() => alert("Donate Now")} />
           </div>
@@ -52,6 +52,10 @@ export default function Home() {
       <SectionSeperator />
       <section id="campaign">
         <Campaign />
+      </section>
+      <SectionSeperator />
+      <section id="buyProducts">
+        <BuyProducts />
       </section>
       <SectionSeperator />
       <section id="contactUs">

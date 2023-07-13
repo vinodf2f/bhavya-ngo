@@ -1,0 +1,80 @@
+h2 {
+    color: yellow;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 500px;
+    width: 100%;
+    background-color: #0F2B28;
+    text-align: center;
+  }
+  
+  .close {
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+    font-size: 24px;
+    color: yellow;
+  }
+
+  .content {
+    color: red;
+  }
+
+  .paymentDiv {
+    display: flex;
+  }
+
+  .paymentDiv  {
+    display: flex;
+  }
+
+  .paymentDiv-items {
+    margin: 10px;
+  }
+
+  .paymentDiv-items {
+    padding: 10px;
+    flex: 1
+  }
+
+  .buyProducts {
+    color: skyblue;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+  h6 {
+    color: yellow;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
