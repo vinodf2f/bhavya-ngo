@@ -1,15 +1,19 @@
 .buttonContainer {
     width: fit-content;
-    background-color: yellow;
-    color: black;
+    color: white;
     cursor: pointer;
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 0 0 1px 0 #e3b74c;
+
+}
+.buttonContainer a {
+    text-decoration: none;
 }
 
 .buttonContainer p {
     padding: 10px;
 }
 
-.buttonContainer p:active {
-    box-shadow: 3px 2px 2px 2px;
+
+.buttonContainer:hover {
+    box-shadow: 0 0 6px 0 #e3b74c;
 }
