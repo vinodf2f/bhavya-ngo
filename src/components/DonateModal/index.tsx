@@ -6,10 +6,9 @@ import Image from "next/image";
 type Props = {
   title: string;
   content: string;
-  children: any;
   closeModal: any;
 };
-const DonateModal = ({ title, content, children, closeModal }: Props) => {
+const DonateModal = ({ title, content,  closeModal }: Props) => {
   return (
     <div>
       <div className="modal">

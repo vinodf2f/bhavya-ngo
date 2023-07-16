@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import "./donateNowButton.css";
 import DonateModal from "../DonateModal";
 
-type Props = {
-  onClick: () => void;
-};
+type Props = {};
 
-const DonateNowButton = ({ onClick }: Props) => {
+const DonateNowButton = ({}: Props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {

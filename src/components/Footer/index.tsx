@@ -9,7 +9,7 @@ const Footer = (props: Props) => {
     <div className="footerContainer sectionContainer">
       <div className="titleContainer">
         <h1>Let's Help Others With Your Charity</h1>
-        <DonateNowButton onClick={() => alert("Donate Now")} />
+        <DonateNowButton  />
         <br />
       </div>
       <Logo />
