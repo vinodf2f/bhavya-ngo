@@ -1,12 +1,14 @@
 .aboutContainer {
   padding: 30px 10px;
-  background-color: #F8F5E8;
-  color: #0F2B28;
+  color: black;
+  line-height: 1.7em;
 }
 
 .aboutContainer h1 {
   font-size: 2rem;
-  color: #0F2B28;
+  color: black;
+  text-align: center;
+  
 }
 
 @media (max-width: 768px) {

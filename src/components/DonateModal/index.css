@@ -1,5 +1,5 @@
 h2 {
-    color: yellow;
+    color: black;
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -28,7 +28,6 @@ h2 {
     border-radius: 4px;
     max-width: 500px;
     width: 100%;
-    background-color: #0F2B28;
     text-align: center;
   }
   
@@ -37,7 +36,7 @@ h2 {
     flex-direction: row-reverse;
     cursor: pointer;
     font-size: 24px;
-    color: yellow;
+    color: black;
   }
 
   .content {
@@ -71,7 +70,7 @@ h2 {
   }
 
   h6 {
-    color: yellow;
+    color: black;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;

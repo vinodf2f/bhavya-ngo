@@ -1,13 +1,15 @@
 .summaryContainer {
-  background-color: #f8f5e8;
+  /* background-color: black; */
+  color:black;
   padding: 30px 0px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .donationItem {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .donationIcon {

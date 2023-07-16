@@ -6,7 +6,7 @@ type Props = {}
 
 const Logo = (props: Props) => {
   return (
-    <Image src={BhavyaLogo} height={100} width={100} alt="Logo"/>
+    <Image src={BhavyaLogo} height={50} width={50} style={{borderRadius:10}} alt="Logo"/>
   )
 }
 

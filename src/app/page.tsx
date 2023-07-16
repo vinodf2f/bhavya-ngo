@@ -14,6 +14,7 @@ import Image from "next/image";
 import HeroImage from "../../public/heroImage.jpeg";
 import "./page.css";
 
+
 export default function Home() {
   return (
     <main>
@@ -29,9 +30,23 @@ export default function Home() {
 
             <h1>Charity Is An Act Of A Soft Heart.</h1>
             <p className="description">
-            We are a team comprised of well-educated young individuals as well as experienced professionals from the educational department. We are dedicated to making a difference in child education by providing financial assistance and educational support to underprivileged children.
+              We are a team comprised of well-educated young individuals as well
+              as experienced professionals from the educational department. We
+              are dedicated to making a difference in child education by
+              providing financial assistance and educational support to
+              underprivileged children.
             </p>
-            <DonateNowButton onClick={() => alert("Donate Now")} />
+            <div style={{ display: "flex", flexDirection: "row" }}>
+              <DonateNowButton onClick={() => alert("Donate Now")} />
+              <button style={{ marginLeft: 20 }} className="buttonContainer">
+                <a
+                  style={{ textDecoration: "none", color: "#e3b74c" }}
+                  href="#buyProducts"
+                >
+                  <p>Buy Products</p>
+                </a>
+              </button>
+            </div>
           </div>
 
           <Socials />

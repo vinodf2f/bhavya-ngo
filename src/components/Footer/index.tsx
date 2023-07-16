@@ -11,7 +11,7 @@ const Footer = (props: Props) => {
         <h1>Let's Help Others With Your Charity</h1>
         <DonateNowButton onClick={() => alert("Donate Now")} />
       </div>
-      <Logo />
+    <div style={{marginTop:20}}>  <Logo /></div>
     </div>
   );
 };

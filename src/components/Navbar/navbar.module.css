@@ -5,7 +5,7 @@
 .navLinkContainer {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -22,12 +22,12 @@
 
 
 .navLinkContainer a:hover  {
-  color:yellow
+  color:black
 }
 
 
 .navLinkContainer .active {
-  color:yellow
+  color:black
 }
 
 

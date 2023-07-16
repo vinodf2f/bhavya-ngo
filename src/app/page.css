@@ -27,7 +27,7 @@ header .leftSection {
 }
 
 header .leftSection h1 {
-  color: yellow;
+  color: black;
   font-size: 4rem;
   line-height: 1.3em;
 }
@@ -56,6 +56,14 @@ header .leftSection p {
   .childImage {
     margin: 20px 0;
   }
+
+  .mobileHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
   .mobileHeader .showOnMobile {
     display: block;
   }
