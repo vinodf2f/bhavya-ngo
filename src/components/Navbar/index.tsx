@@ -6,7 +6,6 @@ const navLinks = [
   { label: "About Us", href: "#about", id: "about" },
   { label: "Campaign", href: "#campaign", id: "Campaign" },
   { label: "Contact Us", href: "#contactUs", id: "contactUs" },
-  { label: "Buy Products", href: "#buyProducts", id: "buyProducts" },
 ];
 export const Navbar = () => {
   const pathname = usePathname();
