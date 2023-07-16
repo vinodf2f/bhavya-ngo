@@ -19,7 +19,7 @@ const Socials = (props: Props) => {
     <div className="socialContainer">
       {SocialLinks.map((social) => (
         <div className="socialButton" key={social.label}>
-          <a  href={social.link}>{social.label}</a>
+          <a target="_blank"  href={social.link}>{social.label}</a>
         </div>
       ))}
     </div>
