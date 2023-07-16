@@ -27,15 +27,16 @@ const DonationDetails = [
 
 const DonationSummary = (props: Props) => {
   return (
-    <div className="summaryContainer">
-      {DonationDetails.map((item, index) => (
-        <div key={String(index)}>
-          <div className="donationItem">
-            <h1 className="donationCount">{item.count}</h1>
+    <div className="sectionContainer">
+      <h2>Donation Summary</h2>
+      <div className="summaryContainer ">
+        {DonationDetails.map((item, index) => (
+          <div key={String(index)} className="donationItem">
+            <h3 className="donationCount">{item.count}</h3>
+            <p className="donationTitle">{item.title}</p>
           </div>
-          <p className="donationTitle">{item.title}</p>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

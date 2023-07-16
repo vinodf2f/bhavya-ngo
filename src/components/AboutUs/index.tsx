@@ -1,11 +1,10 @@
 import React from "react";
-import "./aboutUs.css";
 type Props = {};
 
 const AboutUs = (props: Props) => {
   return (
-    <div className="aboutContainer">
-      <h1>AboutUs</h1>
+    <div className="sectionContainer">
+      <h2>AboutUs</h2>
       <br />
       <p>
         We started this NGO on Vishal and Swapnaja's daughter's birthday. The

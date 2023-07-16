@@ -1,13 +1,14 @@
 .footerContainer {
-  /* background-color: white; */
+  /*  */
   padding: 30px 10px;
-  color: yellow;
+  color: #e3b74c;
   text-align: center;
 }
 
 .titleContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .titleContainer h1 {

@@ -4,7 +4,7 @@ type Props = {}
 
 const BuyProducts = (props: Props) => {
   return (
-    <div style={{padding:50, backgroundColor:'whitesmoke'}}> <h1>Products: Comming Soon..</h1></div>
+    <div  className='sectionContainer'> <h2>Products coming Soon..</h2></div>
   )
 }
 

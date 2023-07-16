@@ -12,9 +12,29 @@ body {
   margin: auto;
   padding-inline: 20px;
   scroll-behavior: smooth;
+  line-height: 1.5em;
 }
 ::-webkit-scrollbar {
   display: none;
+}
+
+.sectionContainer {
+  box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  color: aliceblue;
+  line-height: 1.7em;
+  margin-bottom: 80px;
+  min-height: 100px;
+  padding: 20px;
+}
+
+.sectionContainer h2 {
+  color: #e3b74c;
+}
+
+.row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 @media (max-width: 480px) {
@@ -22,5 +42,13 @@ body {
   body {
     width: 100vw;
     padding-inline: 10px;
+    padding-left: 5px;
+  }
+  .sectionContainer {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  h1 {
+    line-height: 1.5em;
   }
 }

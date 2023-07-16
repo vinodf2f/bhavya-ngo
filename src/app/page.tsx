@@ -8,7 +8,6 @@ import DonationSummary from "@/components/DonationSummary";
 import Footer from "@/components/Footer";
 import Logo from "@/components/Logo";
 import { Navbar } from "@/components/Navbar";
-import SectionSeperator from "@/components/Seperator";
 import Socials from "@/components/Socials";
 import Image from "next/image";
 import HeroImage from "../../public/heroImage.jpeg";
@@ -29,14 +28,24 @@ export default function Home() {
 
             <h1>Charity Is An Act Of A Soft Heart.</h1>
             <p className="description">
-            We are a team comprised of well-educated young individuals as well as experienced professionals from the educational department. We are dedicated to making a difference in child education by providing financial assistance and educational support to underprivileged children.
+              We are a team comprised of well-educated young individuals as well
+              as experienced professionals from the educational department. We
+              are dedicated to making a difference in child education by
+              providing financial assistance and educational support to
+              underprivileged children.
             </p>
-            <DonateNowButton onClick={() => alert("Donate Now")} />
+            <div className="row-center">
+              <DonateNowButton />
+              <div style={{ width: 20 }} />
+              <div className="buttonContainer">
+                <a href="#buyProducts">
+                  <p>Buy Products</p>
+                </a>
+              </div>
+            </div>
           </div>
-
           <Socials />
         </div>
-
         <div className="section rightSection">
           <div className="hideOnMobile">
             <Navbar />
@@ -44,20 +53,17 @@ export default function Home() {
           <Image alt="Child" src={HeroImage} className="childImage" />
         </div>
       </header>
+      <div style={{ marginTop: 50 }} />
       <DonationSummary />
-      <SectionSeperator />
       <section id="about">
         <AboutUs />
       </section>
-      <SectionSeperator />
       <section id="campaign">
         <Campaign />
       </section>
-      <SectionSeperator />
       <section id="buyProducts">
         <BuyProducts />
       </section>
-      <SectionSeperator />
       <section id="contactUs">
         <ContactUs />
       </section>

@@ -1,6 +1,5 @@
-h2 {
-    color: yellow;
-    font-size: 2em;
+.modalTitle {
+    color: #e3b74c;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
@@ -21,15 +20,23 @@ h2 {
     
     background-color: rgba(0, 0, 0, 0.5);
   }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+  }
   
   .modal-content {
     background-color: #fff;
-    padding: 20px;
+    padding-inline: 20px;
+    padding-block: 10px;
     border-radius: 4px;
     max-width: 500px;
     width: 100%;
     background-color: #0F2B28;
     text-align: center;
+    
   }
   
   .close {
@@ -37,7 +44,7 @@ h2 {
     flex-direction: row-reverse;
     cursor: pointer;
     font-size: 24px;
-    color: yellow;
+    color: #e3b74c;
   }
 
   .content {
@@ -71,7 +78,7 @@ h2 {
   }
 
   h6 {
-    color: yellow;
+    color: #e3b74c;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;

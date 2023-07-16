@@ -4,14 +4,13 @@
 }
 
 .socialButton a{
-  padding: 10px;
   margin: 10px;
   font-weight: 500;
   color: white;
 }
 
 .socialButton a:hover {
-  color: yellow;
+  color: #e3b74c;
   cursor: pointer;
 }
 
